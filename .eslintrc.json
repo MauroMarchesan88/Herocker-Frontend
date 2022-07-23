@@ -1,17 +1,3 @@
 {
-    "env": {
-    "browser": true,
-    "es2020": true
-    },
-    "extends": "trybe-frontend",
-  
-    "parserOptions": {
-    "ecmaFeatures": {
-    "jsx": true
-    },
-    "sourceType": "module"
-    },
-    "plugins": [
-    "react"
-    ]
-  }
+  "extends": "eslint-config-trybe-frontend"
+}
